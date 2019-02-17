@@ -9,9 +9,9 @@ Created on Sun Feb 17 23:30:52 2019
 from selenium import webdriver
 import time
 #username used in sonus 
-username='puso7259'
+username='username to login'
 #password 
-password='Rw49iuMzJm'
+password='password to login'
 
 driverpath="/Users/shivamgautam/downloads/chromedriver"
 
