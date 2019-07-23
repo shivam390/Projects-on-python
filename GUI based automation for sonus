@@ -1,0 +1,31 @@
+import tkinter as tk
+import requests
+from PIL import Image, ImageTk
+
+h = 700
+w = 800
+root = tk.Tk()
+
+canvas = tk.Canvas(root, height = h, width = w)
+canvas.pack()
+
+frame = tk.Frame(root, bg='#6c84ab')
+frame.place(relwidth=1, relheight=1)
+
+
+#frame.place(relx=0.1, rely=0.1, relwidth=1, relheight=1)
+
+pp = tk.Button(frame, text="PRE & POST CHECKS", bg='gray',fg='#6c84ab')
+pp.pack()
+
+label = tk.Label(frame, text="Welcome To Sonus Automation", bg='yellow')
+label.pack()
+
+entry = tk.Entry(frame,bg='green')
+entry.pack()
+
+
+
+
+
+root.mainloop()
