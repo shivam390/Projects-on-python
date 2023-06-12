@@ -6,7 +6,6 @@ from Hangman_words import word_list
 
 print(logo)
 chosen_word = random.choice(word_list)
-print(f"For test----->{chosen_word}")
 user_ans = ["_"] * len(chosen_word)
 lives = 6
 new = list(chosen_word)
